@@ -9,5 +9,5 @@ spring:
     name: service-registry
 eureka:
   client:
-    register-with-eureka false
+    register-with-eureka: false
     fetch-registry: false
