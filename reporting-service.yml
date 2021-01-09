@@ -5,3 +5,7 @@ spring:
     name: reporting-service
 
 reporting.name: default report
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
