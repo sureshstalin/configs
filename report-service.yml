@@ -2,7 +2,7 @@ server:
   port: 9094
 spring:
   application:
-    name: reporting-service
+    name: report-service
 eureka:
   client:
     service-url:

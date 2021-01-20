@@ -2,8 +2,6 @@ server:
   port: 9094
 spring:
   application:
-    name: reporting-service
-
-reporting.name: dev report
+    name: report-service
 billing:
   app: This is billing App Reporting Service default
