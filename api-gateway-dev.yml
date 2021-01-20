@@ -3,9 +3,9 @@ server:
 spring:
   application:
     name: api-gateway
-billing:
-  app: This is billing App API Gateway Dev
 eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka
+billing:
+  app: This is billing App API-Gatway dev

@@ -5,3 +5,5 @@ spring:
     name: reporting-service
 
 reporting.name: qa report
+billing:
+  app: This is billing App Reporting Service default

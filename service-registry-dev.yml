@@ -11,3 +11,5 @@ eureka:
   client:
     register-with-eureka false
     fetch-registry: false
+billing:
+  app: This is billing App Registry Service dev

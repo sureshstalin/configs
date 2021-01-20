@@ -1,12 +1,20 @@
-server.port=9092
-spring.application.name=account-service
-suresh.value=hello-qa
-#jpa:
-#show-sql:true
-#hibernate:
-#ddl-auto:update
-#datasource:
-#url:jdbc:mysql://localhost:3306/account-db
-#username:billing-account
-#password:billing123$$
-#driver-class-name:com.mysql.cj.jdbc.Driver
+server:
+  port: 9092
+spring:
+  application:
+    name: account-service
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/account-db
+    username: billing-account
+    password: billing123$$
+    driver-class-name: com.mysql.cj.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+billing:
+  app: This is billing App Account Service default

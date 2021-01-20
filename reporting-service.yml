@@ -3,9 +3,9 @@ server:
 spring:
   application:
     name: reporting-service
-
-reporting.name: default report
 eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka
+billing:
+  app: This is billing App Reporting Service default
