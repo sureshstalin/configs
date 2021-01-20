@@ -12,3 +12,5 @@ spring:
     username: billing-account
     password: billing123$$
     driver-class-name: com.mysql.cj.jdbc.Driver
+billing:
+  app: This is billing App Product Service dev
