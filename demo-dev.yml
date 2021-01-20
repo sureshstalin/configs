@@ -1,0 +1,12 @@
+server.port=9092
+spring.application.name=demo
+suresh.value=hello-dev
+#jpa:
+#show-sql:true
+#hibernate:
+#ddl-auto:update
+#datasource:
+#url:jdbc:mysql://localhost:3306/account-db
+#username:billing-account
+#password:billing123$$
+#driver-class-name:com.mysql.cj.jdbc.Driver
