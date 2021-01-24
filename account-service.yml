@@ -18,3 +18,12 @@ eureka:
       default-zone: http://localhost:8761/eureka
 billing:
   app: This is billing App Account Service default
+default:
+  role: ROLE_DEFAULT
+user:
+  firstname:
+    empty: First Name cannot be empty.
+jwt:
+  secretkey: secrete
+  access-token-expiration: 5000000
+  refresh-token-expiration: 10000000
