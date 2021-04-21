@@ -8,7 +8,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://localhost:3306/product-db
+    url: jdbc:mysql://localhost:3306/productdb
     username: billing-product
     password: billing123$$
     driver-class-name: com.mysql.cj.jdbc.Driver
