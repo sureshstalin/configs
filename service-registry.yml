@@ -8,8 +8,12 @@ spring:
   application:
     name: service-registry
 eureka:
+  instance:
+    hostname: 65.1.222.21
   client:
     register-with-eureka: false
     fetch-registry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 billing:
   app: This is billing App Registry Service default
