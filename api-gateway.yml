@@ -4,8 +4,10 @@ spring:
   application:
     name: api-gateway
 eureka:
+  instance:
+    hostname: 65.1.222.21
   client:
-    service-url:
-      default-zone: http://localhost:8761/eureka
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
 billing:
   app: This is billing App API-Gatway default
