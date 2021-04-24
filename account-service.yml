@@ -14,10 +14,10 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 eureka:
   instance:
-    hostname: 65.1.222.20
+    hostname: 65.2.110.100
   client:
     serviceUrl:
-      defaultZone: http://65.1.222.20:8761/eureka/
+      defaultZone: http://65.1.222.21:8761/eureka/
 billing:
   app: This is billing App Account Service
   test: new Properties
