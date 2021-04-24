@@ -17,7 +17,7 @@ eureka:
     hostname: 65.1.222.20
   client:
     serviceUrl:
-      defaultZone: http://65.1.222.21:8761/eureka/
+      defaultZone: http://65.1.222.20:8761/eureka/
 billing:
   app: This is billing App Account Service
   test: new Properties
