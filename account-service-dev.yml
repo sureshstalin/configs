@@ -17,4 +17,4 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka
 billing:
-  app: This is billing App Account Service default
+  app: This is billing App Dev Account Service

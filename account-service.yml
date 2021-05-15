@@ -8,25 +8,16 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://localhost:3306/accountdb
+    url: jdbc:mysql://localhost:3306/account-test-db
     username: billing-account
     password: billing123$$
     driver-class-name: com.mysql.cj.jdbc.Driver
-eureka:
-  instance:
-    hostname: 65.2.110.100
-  client:
-    serviceUrl:
-      defaultZone: http://65.1.222.21:8761/eureka/
+#eureka:
+#  instance:
+#    hostname: 65.2.110.100
+#  client:
+#    serviceUrl:
+#      defaultZone: http://65.1.222.21:8761/eureka/
 billing:
-  app: This is billing App Account Service
+  app: This is billing App Default Account Service
   test: new Properties
-default:
-  role: ROLE_DEFAULT
-user:
-  firstname:
-    empty: First Name cannot be empty.
-jwt:
-  secretkey: secrete
-  access-token-expiration: 5000000
-  refresh-token-expiration: 10000000
